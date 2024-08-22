@@ -17,3 +17,12 @@
 .profa_progm{
     background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./Images/4.png);
 }
+
+/* footer section */
+.nav-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
