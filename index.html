@@ -90,7 +90,7 @@
                 <div id="slide1" class="carousel-item relative w-full">
                 <img
                     src="./Images/1.png"
-                    class="w-full" />
+                    class="w-full lg:h-[500px]" />
                 <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
                     <a href="#slide4" class="btn btn-circle bg-slate-900 text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle bg-slate-900 text-white">❯</a>
@@ -100,7 +100,7 @@
                 <div id="slide2" class="carousel-item relative w-full">
                 <img
                     src="Images/2.png"
-                    class="w-full" />
+                    class="w-full lg:h-[500px]"/>
                 <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
                     <a href="#slide1" class="btn btn-circle bg-slate-900 text-white">❮</a>
                     <a href="#slide3" class="btn btn-circle bg-slate-900 text-white">❯</a>
@@ -110,7 +110,7 @@
                 <div id="slide3" class="carousel-item relative w-full">
                 <img
                 src="Images/3.png"
-                    class="w-full" />
+                class="w-full lg:h-[500px]" />
                 <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
                     <a href="#slide2" class="btn btn-circle bg-slate-900 text-white">❮</a>
                     <a href="#slide4" class="btn btn-circle bg-slate-900 text-white">❯</a>
@@ -120,7 +120,7 @@
                 <div id="slide4" class="carousel-item relative w-full">
               <img
               src="Images/4.png"
-                class="w-full" />
+              class="w-full lg:h-[500px]"/>
               <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
                 <a href="#slide3" class="btn btn-circle bg-slate-900 text-white">❮</a>
                 <a href="#slide1" class="btn btn-circle bg-slate-900 text-white">❯</a>
@@ -128,16 +128,80 @@
                 </div>
             </div>
 
-            <div class="lg:absolute right-8 bottom-8 lg:w-2/4 text-white space-y-2 bg-slate-900 p-8 rounded">
+            <div class="lg:absolute right-8 bottom-8 lg:w-2/4 text-white space-y-2  bg-slate-900 p-8 rounded">
                 <h1 class="text-lg font-extrabold lg:text-2xl">Meet all the heroes from the field</h1>
                 <p class="text-sm font-medium lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
         </section>
-        <!-- Banner part -->
-
 
     </header>
-    <main></main>
+
+    <main class="container mx-auto my-10 lg:my-24">
+        <!-- Hockes Club section -->
+         <section class="mx-4 py-6 border-y-2 border-dotted lg:py-8 lg:mx-0 ">
+            <div class="text-center">
+                <!-- header -->
+                <h2 class="text-[22px] font-extrabold space-x-4 lg:text-4xl mb-4">Professional Hockeys Club</h2>
+                <!-- description -->
+                <p class="font-medium text-sm text-slate-600 lg:text-base lg:max-w-[607px] mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </section>
+
+            <!-- Radial progress conunter -->
+        <section class="mx-4 py-6 grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:py-8 lg:mx-0 ">
+            <!-- progress one -->
+            <div class="flex flex-col items-center justify-center space-y-3">
+                <div class="relative">
+                    <div class="radial-progress text-gray-300" style="--value:85;" role="progressbar"><span class="text-black">85%</span></div>
+                    <div class="absolute text-primary left-0 rotate-180 radial-progress " style="--value:85;" role="progressbar"></div>
+                </div>
+                <h2 class="text-xl font-semibold">Prayer Facility</h2>
+                <p class="text-slate-500 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+
+            <!-- progress two -->
+            <div class="flex flex-col items-center justify-center space-y-3">
+                <div class="relative">
+                    <div class="radial-progress text-gray-300" style="--value:85;" role="progressbar"><span class="text-black">80%</span></div>
+                    <div class="absolute text-red-500 left-0 rotate-180 radial-progress " style="--value:80;" role="progressbar"></div>
+                </div>
+                <h2 class="text-xl font-semibold">Experienced Coach</h2>
+                <p class="text-slate-500 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+
+            <!-- progress three -->
+            <div class="flex flex-col items-center justify-center space-y-3">
+                <div class="relative">
+                    <div class="radial-progress text-gray-300" style="--value:85;" role="progressbar"><span class="text-black">95%</span></div>
+                    <div class="absolute text-green-500 left-0 rotate-180 radial-progress " style="--value:95;" role="progressbar"></div>
+                </div>
+                <h2 class="text-xl font-semibold">Senior Player</h2>
+                <p class="text-slate-500 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+
+            <!-- Progress four -->
+            <div class="flex flex-col items-center justify-center space-y-3">
+                <div class="relative">
+                    <div class="radial-progress text-gray-300" style="--value:85;" role="progressbar"><span class="text-black">80%</span></div>
+                    <div class="absolute text-primary left-0 rotate-180 radial-progress " style="--value:80;" role="progressbar"></div>
+                </div>
+                <h2 class="text-xl font-semibold">Training Ground</h2>
+                <p class="text-slate-500 text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            </div>
+
+        </section>
+
+        <!-- programe section -->
+        <section class="mx-4 py-6 border-y-2 border-dotted lg:py-8 lg:mx-0 ">
+            <div class="text-center">
+                <!-- header -->
+                <h2 class="text-[22px] font-extrabold space-x-4 lg:text-4xl mb-4">Program Sections</h2>
+                <!-- description -->
+                <p class="font-medium text-sm text-slate-600 lg:text-base lg:max-w-[607px] mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </section>
+
+    </main>
     <footer></footer>
 </body>
 </html>
