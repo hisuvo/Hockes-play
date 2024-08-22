@@ -21,9 +21,122 @@
     <!-- script.js link -->
      <script type="module" src="script.js"></script>
 
+    <!-- style link -->
+     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto ">
+        <!-- navigation bar -->
+        <nav class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 z-[1] mt-3 w-[230px] p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Content</a></li>
+                </ul>
+                </div>
+
+                <a class="text-2xl lg:text-4xl font-extrabold gap-0">Hocke<span class="text-red-400">'</span>s</a>
+            </div>
+
+            <!-- nav horizental menu -->
+
+            <div class="navbar-center hidden lg:flex">
+                <ul class="space-x-11 menu-horizontal px-1 text-lg font-light">
+                <li class="hover:text-red-400 focus:text-red-500"><a>Home</a></li>
+                <li class="hover:text-red-400 focus:text-red-500"><a>About</a></li>
+                <li class="hover:text-red-400 focus:text-red-500"><a>Pages</a></li>
+                <li class="hover:text-red-400 focus:text-red-500"><a>Blog</a></li>
+                <li class="hover:text-red-400 focus:text-red-500"><a>Content</a></li>
+                </ul>
+            </div>
+
+            <!-- nav search and button -->
+
+            <div class="navbar-end lg:space-x-2">
+
+                <a class="btn btn-ghost btn-circle"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                <a class="btn btn-error text-white lg:font-bold text-lg lg:text-xl">Get Ticket</a>
+
+            </div>
+        </nav>
+
+        <!-- carusol section -->
+         <section class="mx-4 my-12 relative">
+            <div class="carousel w-full">
+                <!-- slider one -->
+                <div id="slide1" class="carousel-item relative w-full">
+                <img
+                    src="./Images/1.png"
+                    class="w-full" />
+                <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
+                    <a href="#slide4" class="btn btn-circle bg-slate-900 text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-slate-900 text-white">❯</a>
+                </div>
+                </div>
+                <!-- slider two -->
+                <div id="slide2" class="carousel-item relative w-full">
+                <img
+                    src="Images/2.png"
+                    class="w-full" />
+                <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
+                    <a href="#slide1" class="btn btn-circle bg-slate-900 text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-slate-900 text-white">❯</a>
+                </div>
+                </div>
+                <!-- slider three -->
+                <div id="slide3" class="carousel-item relative w-full">
+                <img
+                src="Images/3.png"
+                    class="w-full" />
+                <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
+                    <a href="#slide2" class="btn btn-circle bg-slate-900 text-white">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-slate-900 text-white">❯</a>
+                </div>
+                </div>
+                <!-- slider four -->
+                <div id="slide4" class="carousel-item relative w-full">
+              <img
+              src="Images/4.png"
+                class="w-full" />
+              <div class="absolute left-1/2 bottom-8 -translate-x-1/2 lg:left-8 lg:translate-x-0 justify-between">
+                <a href="#slide3" class="btn btn-circle bg-slate-900 text-white">❮</a>
+                <a href="#slide1" class="btn btn-circle bg-slate-900 text-white">❯</a>
+              </div>
+                </div>
+            </div>
+
+            <div class="lg:absolute right-8 bottom-8 lg:w-2/4 text-white space-y-2 bg-slate-900 p-8 rounded">
+                <h1 class="text-lg font-extrabold lg:text-2xl">Meet all the heroes from the field</h1>
+                <p class="text-sm font-medium lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </section>
+        <!-- Banner part -->
+
+
+    </header>
     <main></main>
     <footer></footer>
 </body>
